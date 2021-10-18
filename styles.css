@@ -37,10 +37,110 @@ nav li{
 
 li a{
     text-decoration: none;
-    word-wrap: normal;   
+    word-wrap: normal;  
+    color: #6b7280; 
 }
 
+a:hover{
+    color: #5a67d8
+}
+
+.overview-hero{
+    background-color: #e2e8f0;
+    padding-right: 100px;
+}
 .overview-hero-image img{
-    height: 125px;
-    width: 125px;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    right: 200px;
+}
+
+.overview-hero-text{
+    text-align: left;
+    position: absolute;
+    display: inline;
+    top:100px;
+    left:600px;
+    word-wrap: break-word;
+    padding-right: 150px;
+}
+
+.learn-about h2{
+    font-size: 24px;
+    color: #48bb78;
+    padding-left: 90px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 30px;
+    
+}
+
+.cards img{
+    height:250px;
+    width: 350px;
+    padding-left: 90px;
+}
+
+.cards h3{
+    padding-left: 90px;
+    font-size: 21px;
+    color: #48bb78;
+}
+
+.cards p{
+    padding-left: 90px;
+}
+
+.card{
+    border-color: #e2e8f0;
+    border-radius: 5px;
+    box-shadow: #6b7280;
+}
+
+.testing{
+    background-color: #4a5568;
+    color: white;
+}
+.testing a{
+    background-color: #48bb78;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.stories h2{
+    color: #5a67d8;
+}
+
+.stories a{
+    color: #5a67d8;
+    text-decoration: none;
+}
+
+.article-body h3{
+    font-size: 18px;
+}
+
+.stories img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.newsletter{
+    background-color: #48bb78;
+    color: white;
+}
+
+.newsletter .btn{
+    background-color: #5a67d8;
+    color: white;
+}
+
+footer{
+    background-color: #4a5568;
+    color: white;
 }
