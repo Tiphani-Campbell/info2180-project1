@@ -9,3 +9,36 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+h1{
+    text-align:left;
+    
+}
+
+nav ul{
+    list-style-type: none;
+    
+}
+
+nav li{
+    float: left;
+    position: relative;
+    bottom: 50px;
+    left: 500px;
+    text-align: right;
+    padding-right: 20px;
+    
+    
+    
+    
+   
+}
+
+li a{
+    text-decoration: none;
+    word-wrap: normal;
+    
+   
+    
+    
+}
