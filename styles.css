@@ -48,12 +48,14 @@ a:hover{
 .overview-hero{
     background-color: #e2e8f0;
     padding-right: 100px;
+    height: 200px;
 }
 .overview-hero-image img{
     height: 150px;
     width: 150px;
     position: relative;
     right: 200px;
+    padding-top: 10px;
 }
 
 .overview-hero-text{
@@ -64,51 +66,74 @@ a:hover{
     left:600px;
     word-wrap: break-word;
     padding-right: 150px;
+    
 }
 
 .learn-about h2{
     font-size: 24px;
     color: #48bb78;
-    padding-left: 90px;
+    padding-left: 5px;
 }
 .cards{
     display: grid;
     grid-template-columns: 300px 300px 300px;
-    grid-gap: 30px;
+    grid-gap: 20px;
+    padding-bottom: 10px;
     
 }
 
 .cards img{
     height:250px;
-    width: 350px;
-    padding-left: 90px;
+    width: 250px;
+    padding-left: 40px;
 }
 
 .cards h3{
-    padding-left: 90px;
+    padding-left: 50px;
     font-size: 21px;
     color: #48bb78;
 }
 
 .cards p{
-    padding-left: 90px;
+    padding-left: 50px;
 }
 
 .card{
+    border-style: solid;
     border-color: #e2e8f0;
     border-radius: 5px;
-    box-shadow: #6b7280;
+    box-shadow: 2px 2px 2px #6b7280;
 }
 
 .testing{
     background-color: #4a5568;
     color: white;
+    height: 200px;
+    word-wrap: break-word;
+    padding-top: 40px;
+    
+   
 }
 .testing a{
+    position:absolute;
     background-color: #48bb78;
     border-radius: 5px;
     color: white;
     text-decoration: none;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    top:970px;
+    left:750px;
+    
+}
+
+
+.testing-description{
+    word-wrap: break-word;
+    padding-right: 410px;
+    
 }
 
 .stories h2{
@@ -128,19 +153,64 @@ a:hover{
     height: 150px;
     width: 150px;
     border-radius: 50%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.stories .article-body{
+    position: relative;
+    left: 200px;
+    bottom: 150px;
+    padding-right: 350px;
+    
+}
+
+.stories h2{
+    padding-top: 150px;
 }
 
 .newsletter{
     background-color: #48bb78;
     color: white;
+    height: 150px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-left: 590px;
+    
+    
 }
 
 .newsletter .btn{
+    position: absolute;
     background-color: #5a67d8;
     color: white;
+    border: none;
+    width :150px;
+    height: 40px;
+    top: 2215px;
+    left: 690px;
+}
+
+.newsletter p{
+    position: absolute;
+    word-wrap: break-word;
+    text-align: center;
+    padding-right: 250px;
+    top:2140px;
+    left:380px;
+}
+
+.form-group #email{
+    position: absolute;
+    width:220px;
+    height:35px;
+    top: 2215px;
+    left:460px;
 }
 
 footer{
     background-color: #4a5568;
     color: white;
+    height:50px;
+    padding-top: 20px;
 }
