@@ -214,3 +214,10 @@ footer{
     height:50px;
     padding-top: 20px;
 }
+
+.message{
+    position : absolute;
+    color:white;
+    top: 2255px;
+    left: 460px;
+}
