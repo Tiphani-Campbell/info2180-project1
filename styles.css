@@ -78,7 +78,7 @@ a:hover{
     display: grid;
     grid-template-columns: 300px 300px 300px;
     grid-gap: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
     
 }
 
@@ -160,7 +160,7 @@ a:hover{
 .stories .article-body{
     position: relative;
     left: 200px;
-    bottom: 150px;
+    bottom: 200px;
     padding-right: 350px;
     
 }
@@ -173,13 +173,17 @@ a:hover{
     background-color: #48bb78;
     color: white;
     height: 150px;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 25px;
     padding-left: 590px;
     
     
 }
 
+.newsletter h3{
+    position: absolute;
+    top: 2140px;
+}
 .newsletter .btn{
     position: absolute;
     background-color: #5a67d8;
@@ -187,7 +191,7 @@ a:hover{
     border: none;
     width :150px;
     height: 40px;
-    top: 2215px;
+    top: 2250px;
     left: 690px;
 }
 
@@ -196,7 +200,7 @@ a:hover{
     word-wrap: break-word;
     text-align: center;
     padding-right: 250px;
-    top:2140px;
+    top:2170px;
     left:380px;
 }
 
@@ -204,7 +208,7 @@ a:hover{
     position: absolute;
     width:220px;
     height:35px;
-    top: 2215px;
+    top: 2250px;
     left:460px;
 }
 
